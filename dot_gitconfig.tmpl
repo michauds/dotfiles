@@ -1,0 +1,9 @@
+#
+# .gitconfig managed by chezmoi
+#
+[core]
+	editor = vi
+
+[user]
+	email = {{ .email | quote }}
+	name = {{ .full_name | title }}

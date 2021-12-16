@@ -1,0 +1,18 @@
+"
+" managed by chezmoi
+"
+
+set scrolloff=5
+" Show all non-printing characters
+set list
+" np characters to display
+set listchars=tab:▸-,eol:$,trail:~,nbsp:~
+" match brackets
+set showmatch
+
+:map <Leader>b <Action>(ToggleLineBreakpoint)
+" Not just javadoc
+:map <Leader>d <Action>(QuickJavaDoc)
+" description of error under cursor
+:map <Leader>e <Action>(ShowErrorDescription)
+:map <Leader>i <Action>(QuickImplementations)

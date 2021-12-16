@@ -1,0 +1,28 @@
+syntax on
+
+set shiftwidth=4
+set softtabstop=4
+set tabstop=8
+
+set expandtab
+set smarttab
+
+set nu
+
+set cursorline
+set scrolloff=5
+
+" Show all non-printing characters
+set list
+" np characters to display
+set listchars=tab:▸-,eol:$,trail:~,nbsp:~
+
+" stop mac from dinging every esc key
+set noerrorbells
+set visualbell
+
+filetype on
+
+" swanky color column
+set colorcolumn=80
+highlight ColorColumn ctermbg=green
